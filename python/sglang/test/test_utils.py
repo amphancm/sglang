@@ -30,7 +30,7 @@ from sglang.srt.utils import (
     kill_process_tree,
     retry,
 )
-from sglang.test.run_eval import run_eval
+from sglang.python.sglang.test.run_eval import run_eval
 from sglang.utils import get_exception_traceback
 
 # General test models

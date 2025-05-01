@@ -8,7 +8,7 @@ import json
 import os
 import time
 
-from sglang.test.simple_eval_common import (
+from sglang.python.sglang.test.simple_eval_common import (
     ChatCompletionSampler,
     make_report,
     set_ulimit,

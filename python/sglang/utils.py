@@ -341,7 +341,7 @@ def download_and_cache_file(url: str, filename: Optional[str] = None):
 
 
 def is_in_ci():
-    from sglang.test.test_utils import is_in_ci
+    from sglang.python.sglang.test.test_utils import is_in_ci
 
     return is_in_ci()
 
